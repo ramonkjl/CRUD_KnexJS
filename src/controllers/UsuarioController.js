@@ -1,5 +1,4 @@
 const { create } = require('domain');
-const { update, delete } = require('../database');
 const knex = require('../database');
 
 module.exports = {
