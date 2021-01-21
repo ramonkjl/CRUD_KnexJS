@@ -8,6 +8,10 @@ module.exports = {
       database: "knex",
       user: "ramon",
       password: "123456"
+    },
+    migrations:{
+      tableName: "knex_migrations",
+      directory: `${__dirname}/src/database/migrations`
     }
-  },
+  }
 };
